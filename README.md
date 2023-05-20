@@ -1,4 +1,4 @@
 # 📌 Curso Engenheiro Front-End
-Repositório para asição dos conteúdos das aulas do curso engenheiro front-end da EBAC.
+Este repositório trata-se da adição dos conteúdos das aulas do curso engenheiro front-end da EBAC.
 
 Em desenvolvimento...
