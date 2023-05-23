@@ -4,13 +4,13 @@
     padding: 0;
 }
 
-header .container {
+header .container, footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-body > header {
+body > header, footer {
     background-color: #2f3640;
     color: #f5f6fa;
     padding-block: 16px;
@@ -98,9 +98,17 @@ section h2,
 }
 
 #tech {
-    background-color: #ccb5f1;
+    background-color: #e1d5f3;
 }
 
 #tech .articles article a {
     background-color: #6838b6;
+}
+
+#entertainment {
+    background-color: #e6eef1;
+}
+
+#entertainment .articles article a {
+    background-color: #372c9e;
 }
