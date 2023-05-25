@@ -16,3 +16,5 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 02:** Versionamento de código usando o Git
 - **Módulo 03:** HTML
 - **Módulo 04:** CSS
+- **Módulo 05:** Projeto 1
+- **Módulo 06:** Fundamentos do JavaScript
