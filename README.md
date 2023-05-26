@@ -18,3 +18,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 04:** CSS
 - **Módulo 05:** Projeto 1
 - **Módulo 06:** Fundamentos do JavaScript
+
+
+Em desenvolvimento...
