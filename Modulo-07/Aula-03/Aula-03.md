@@ -19,3 +19,18 @@ Para habilitar ou desabilitar um botão:
 letbotao= document.getElementById('btn-depositar')
 botao.disabled = true || false
 ```
+
+<br>
+
+### ✅ Questionário
+Qual atributo usamos para desabilitar um botão?
+
+A- botao.disabled = false
+
+B- botao.enabled = false
+
+C- botao.disabled = true
+
+D- botao.active = false 
+
+Resposta: Letra C

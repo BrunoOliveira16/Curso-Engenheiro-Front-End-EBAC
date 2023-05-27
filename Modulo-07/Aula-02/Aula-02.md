@@ -22,3 +22,18 @@ document.getElementsByTagName('input’)
 document.querySelector('input[type=number]’)
 ```
 Ou para retornar todos os itens que atendam ao critério da busca ``document.querySelectorAll('input[type=number]')``
+
+<br>
+
+### ✅ Questionário
+Qual dos seletores a seguir podemos usar para selecionar um elemento através de seu ID?
+
+A- document.querySelector("#IdDoElemento")
+
+B- document.getElementsById("idDoElemento")
+
+C- document.getElement("#IdDoElemento")
+
+D- document.getElements("#IdDoElemento") 
+
+Resposta: Letra A

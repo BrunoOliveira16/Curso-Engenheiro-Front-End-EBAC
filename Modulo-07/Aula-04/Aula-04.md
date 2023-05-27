@@ -14,3 +14,18 @@ document.querySelector('form').addEventListener(function() {
     alert("O formulário foi enviado");
 });
 ```
+
+<br>
+
+### ✅ Questionário
+Através de qual função adicionamos eventos a elementos?
+
+A- button.onEvent('click', function() {})
+
+B- button.addEvent('click', function() {})
+
+C- button.addEventListener('click', function() {})
+
+D- button.event('click', function() {}) 
+
+Resposta: letra C
