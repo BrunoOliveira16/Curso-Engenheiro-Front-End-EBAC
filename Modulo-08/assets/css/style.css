@@ -71,6 +71,11 @@ form button {
     color: var(--text-primary-color);
     font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    filter: contrast(1.5);
 }
 
 form button:nth-last-child(1) {
