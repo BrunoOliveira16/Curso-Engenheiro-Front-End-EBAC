@@ -2,7 +2,6 @@ const form = document.getElementById('form');
 const inputNumberA = document.getElementById('number-a');
 const inputNumberB = document.getElementById('number-b');
 const message = document.getElementById('message');
-let formIsValid = false;
 
 // Formulario com menssagem de sucesso
 function successfulForm () {
