@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg-primary-color: #E7E7E7;
+    --bg-secondary-color: #009432;
+    --bg-danger-color: #f00b0b;
+    --text-primary-color: #FFFFFF;
+    --text-secondary-color: #000000;
+    --border-primary-color: rgba(0, 0, 0, 0.1);
+
+    --large-font-size: 2.5rem;
+    --medium-font-size: 1.5rem;
+    --normal-font-size: 1.125rem;
+}
+
+body {
+    background-color: var(--bg-primary-color);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+header img {
+    height: 36px;
+    margin-right: 1rem;
+}
+
+header h1 {
+    font-size: var(--large-font-size);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    padding: .5rem;
+    font-size: var(--medium-font-size);
+    border: none;
+}
+
+form input {
+    background-color: var(--text-primary-color);
+    border-bottom: 2px solid var(--text-secondary-color);
+}
+
+form button {
+    background-color: var(--bg-secondary-color);
+    color: var(--text-primary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid var(--text-secondary-color);
+    padding: 1rem;
+    font-size: var(--medium-font-size);
+    font-weight: bold;
+}
+
+table td {
+    font-size: var(--normal-font-size);
+    text-align: center;
+    padding-block: 1rem;
+    border-bottom: 1px solid var(--border-primary-color);
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: .5rem;
+    font-weight: bold;
+    color: var(--text-primary-color);
+    background-color: var(--text-secondary-color);
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: var(--bg-secondary-color);
+}
+
+.reprovado {
+    background-color: var(--bg-danger-color);
+}
