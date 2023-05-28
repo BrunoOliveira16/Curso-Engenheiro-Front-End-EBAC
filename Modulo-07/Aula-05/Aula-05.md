@@ -16,3 +16,18 @@ document.querySelector('.feedback').classList.add('success');
                                    .classList.remove('success');
 ```
 Assim evitamos o uso de CSS inline.
+
+<br>
+
+### ✅ Questionário
+Como podemos adicionar uma classe à um elemento através do JavaScript?
+
+A- elemento.class.add('nomeDaClasse')
+
+B- elemento.classList.add('nomeDaClasse')
+
+C- elemento.addStyle('nomeDaClasse')
+
+D- elemento.addClass('nomeDaClasse') 
+
+Resposta: Letra B.
