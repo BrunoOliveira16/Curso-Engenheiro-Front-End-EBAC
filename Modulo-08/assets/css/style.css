@@ -12,6 +12,7 @@
     --text-primary-color: #FFFFFF;
     --text-secondary-color: #000000;
     --border-primary-color: rgba(0, 0, 0, 0.1);
+    --button-secondary-color: #eb7b13;
 
     --large-font-size: 2.5rem;
     --medium-font-size: 1.5rem;
@@ -46,7 +47,7 @@ header h1 {
 }
 
 form {
-    max-width: 640px;
+    max-width: 740px;
     width: 100%;
     margin-bottom: 3.5rem;
     display: flex;
@@ -70,6 +71,10 @@ form button {
     color: var(--text-primary-color);
     font-weight: bold;
     cursor: pointer;
+}
+
+form button:nth-last-child(1) {
+    background-color: var(--button-secondary-color);
 }
 
 table {

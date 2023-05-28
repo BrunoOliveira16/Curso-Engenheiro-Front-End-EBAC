@@ -19,10 +19,11 @@
             <h1>Calculadora de Média</h1>
         </header>
     
-        <form>
-            <input type="text" required placeholder="Nome da atividade">
-            <input type="number" required placeholder="Nota da atividade" min="0" max="10">
+        <form id="form-atividade">
+            <input type="text" required placeholder="Nome da atividade" id="nome-atividade">
+            <input type="number" required placeholder="Nota da atividade" min="0" max="10" id="nota-atividade">
             <button type="submit">Adicionar +</button>
+            <button type="button" id="reset-btn">Limpar Tabela</button>
         </form>
     
         <table cellspacing="0">
@@ -34,17 +35,13 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Atividade 01</td>
-                    <td>7</td>
-                    <td><img src="./assets/images/aprovado.png" alt="emoji de aprovação"></td>
-                </tr>
+                <!-- HTML gerado via JavaScript -->
             </tbody>
             <tfoot>
                 <tr>
                     <td>Media Final</td>
-                    <td>7</td>
-                    <td><span class="resultado aprovado">Aprovado</span></td>
+                    <td id="media-valor"><!-- HTML gerado via JavaScript --></td>
+                    <td id="media-resultado"><!-- HTML gerado via JavaScript --></td>
                 </tr>
             </tfoot>
         </table>
