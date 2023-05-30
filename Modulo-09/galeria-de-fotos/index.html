@@ -14,15 +14,38 @@
 </head>
 <body>
     <header>
+        <img src="./assets/images/logo.png" alt="logotipo de uma imagem" class="logo">
         <h1>Galeria de Fotos</h1>
         <button type="button"><img src="./assets/images/add.png" alt="icone de add imagem">Nova imagem</button>
     </header>
+
     <form>
         <h2>Inserir nova imagem</h2>
-        <input type="url" required placeholder="URL da imagem">
+        <input type="url" required placeholder="URL da imagem" id="endereco-img">
         <button type="submit">Adicionar</button>
         <button type="reset" id="botao-cancelar">Cancelar</button>
     </form>
+
+    <ul>
+        <li>
+            <img src="./assets/images/foto01.jpg" alt="imagem">
+            <div class="overlay-imagem-link">
+                <a href="./assets/images/foto01.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/images/foto02.jpg" alt="imagem">
+            <div class="overlay-imagem-link">
+                <a href="./assets/images/foto02.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="./assets/images/foto03.jpg" alt="imagem">
+            <div class="overlay-imagem-link">
+                <a href="./assets/images/foto03.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
 
     <!-- jQuery-->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
