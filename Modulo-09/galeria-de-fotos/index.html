@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Fotos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Galeria de Fotos</h1>
+        <button type="button"><img src="./assets/images/add.png" alt="icone de add imagem">Nova imagem</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" required placeholder="URL da imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- JavaScript -->
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
