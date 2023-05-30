@@ -20,6 +20,7 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 06:** Fundamentos do JavaScript
 - **Módulo 07:** Integrando HTML com JavaScript
 - **Módulo 08:** Projeto 2
+- **Módulo 09:** Conhecendo o jQuery
 
 
 Em desenvolvimento...
