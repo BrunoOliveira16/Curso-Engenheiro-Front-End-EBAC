@@ -1,5 +1,7 @@
 # 🏆 EBAC Motors
 
+<img src="./assets/images/screenshot.jpg" alt="Screenshot do site desenvolvido">
+
 <br>
 
 ## 📎 Sumario
@@ -13,7 +15,7 @@
 <br>
 
 ## 📌 Resumo do Projeto
-Este é um projeto de site de venda de carros, contruido com jQuery, HTML e CSS. 
+Este é um projeto de site de venda de carros, contruido com jQuery, HTML e CSS, neste site foi aplicado plugins jQuery para otimizar algumas regras de negócio, em relação a validações do formulário, interação do usuário com produtos x formulario, mascaras dos campos e usabilidade do usuário.
 
 <br>
 
@@ -29,10 +31,13 @@ Este é um projeto de site de venda de carros, contruido com jQuery, HTML e CSS.
 
 ## 📂 Temas abordados
 - HTML semântico;
-- Utilização de formulário e máscaras;
+- Estilização com CSS e Flexbox
+- Utilização de formulário;
 - Utilização de JQuery para inserir classes CSS de forma dinâmica;
 - Criação de menu hambuguer com jQuery;
 - Criação de carousel com o plugin slick: <a href="http://kenwheeler.github.io/slick/" targer="_blank"><b>Site do Silck</b></a>;
+- Criação de máscaras para campos de formulário com o plugin jQuery Mask Plugin: <a href="https://igorescobar.github.io/jQuery-Mask-Plugin/" targer="_blank"><b>Site do jQuery Mask Plugin</b></a>;
+- Validação do formulário utilizando o plugin jQueryValidation: <a href="https://jqueryvalidation.org/" targer="_blank"><b>Site do jQuery Validation Plugin</b></a>;
 
 <br>
 
