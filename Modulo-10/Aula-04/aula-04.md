@@ -46,14 +46,14 @@ Representamos os caracteres numéricos com o uso do zero e as letras utilizando 
 <br>
 
 ### ✅ Questionário
-Qual propriedade e valor do CSS utilizamos para fazer com que o cabeçalho acompanhasse a rolagem da página?
+Qual função utilizamos para aplicar máscara aos campos com o jQuery Mask Plugin?
 
-A- display: stick
+A- $('input').hint('00/00/0000')
 
-B- position: sticky
+B- $('input').mask('00/00/0000')
 
-C- position: fixed
+C- $('input').format('00/00/0000')
 
-D- display: fixed 
+D- $('input').applyMask('00/00/0000') 
 
 Resposta: Letra B
