@@ -169,3 +169,7 @@ footer li {
 footer li img {
     height: 32px;
 }
+
+.error {
+    color: #ba0d0d;
+}
