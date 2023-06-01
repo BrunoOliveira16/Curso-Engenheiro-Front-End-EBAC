@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to top, #1BF2B2 0%, #A5CF76 80%) no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 560px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #edeff1;
+}
+
+header {
+    font-family: 'Pathway Extreme', sans-serif;
+    text-align: right;
+    color: rgb(73, 150, 150);
+    font-weight: 100;
+}
+
+form {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px 0;
+}
+
+input, button {
+    padding: 8px;
+    border: none;
+}
+
+input, input::placeholder {
+    color: rgb(73, 150, 150);
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: rgb(73, 150, 150);
+}
+
+ul {
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 1.3rem;
+    font-family: 'Handlee', cursive;
+    color: #515355;
+    border-bottom: 2px solid #b8babd;
+    list-style: none;
+    cursor: pointer;
+}
+
+.box {
+    margin-right: 16px;
+    width: 18px;
+    height: 18px;
+    outline: 2px solid rgb(200, 185, 54);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-through div {
+    background-color: rgb(200, 185, 54);
+    border: 2px solid #edeff1;
+}

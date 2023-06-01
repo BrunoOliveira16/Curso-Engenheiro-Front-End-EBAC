@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio jQuery</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Pathway+Extreme:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<body>
+    <main class="container">
+        <header>
+            <h1>lista de tarefas</h1>
+        </header>
+
+        <form>
+            <input type="text" placeholder="adicionar tarefa" id="adicionar-tarefa" required>
+            <button type="submit">Adicionar +</button>
+        </form>
+
+        <div>
+            <ul id="lista-tarefa"><!-- Lista gerada via JavaScript --></ul>
+        </div>
+    </main>
+
+     <!-- jQuery-->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+     <!-- JavaScript -->
+     <script src="./assets/js/main.js"></script>
+</body>
+</html>
