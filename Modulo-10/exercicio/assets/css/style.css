@@ -53,3 +53,8 @@ button {
 button:hover {
     filter: brightness(1.2);
 }
+
+.error {
+    color: #ba0d0d;
+    border-color: #ba0d0d;
+}
