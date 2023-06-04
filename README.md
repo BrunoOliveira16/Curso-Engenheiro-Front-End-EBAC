@@ -23,6 +23,7 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 08:** Projeto 2
 - **Módulo 09:** Conhecendo o jQuery
 - **Módulo 10:** Plugins jQuery
+- **Módulo 11:** Fundamentos do CSS Responsivo
 
 
 Em desenvolvimento...
