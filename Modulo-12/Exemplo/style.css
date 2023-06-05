@@ -1,3 +1,11 @@
+body {
+    padding: 32px;
+}
+
 table {
     max-width: 580px;
+}
+
+#preco p {
+    width: 300px;
 }

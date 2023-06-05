@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./form-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success">Confira as Novidades do blog <a href="#">Clicando aqui</a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Últimas postagens</h2>
+                <div class="container g-0">
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180" alt="imagem default">
+                            <h4 class="h5">Título da Postagem</h4>
+                            <time>10/08/2022</time>
+                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180" alt="imagem default">
+                            <h4 class="h5">Título da Postagem</h4>
+                            <time>10/08/2022</time>
+                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180" alt="imagem default">
+                            <h4 class="h5">Título da Postagem</h4>
+                            <time>10/08/2022</time>
+                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                        <div class="col-md-4 post">
+                            <img src="https://via.placeholder.com/180x180" alt="imagem default">
+                            <h4 class="h5">Título da Postagem</h4>
+                            <time>10/08/2022</time>
+                            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                <div>
+                    <h2>Anunciantes</h2>
+                    <img src="https://via.placeholder.com/180x180" alt="imagem default">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label for="nome" class="form-label">Seu nome:</label>
+                    <input class="form-control" type="text" id="nome">
+                    <label for="email" class="form-label">Seu email:</label>
+                    <input class="form-control" type="email" id="email">
+                    <label for="mensagem" class="form-label">Sua mensagem:</label>
+                    <textarea class="form-control" id="mensagem"></textarea>
+                    <div class="form-check form-switch">
+                        <label for="aceito-termos">Li e concordo com os termos do site</label>
+                        <input type="checkbox" class="form-check-input" id="aceito-termos">
+                    </div>
+                    <button class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
