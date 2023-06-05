@@ -46,4 +46,4 @@ C- form-control
 
 D- form-input 
 
-Resposta: Letra D
+Resposta: Letra C
