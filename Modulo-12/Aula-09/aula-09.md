@@ -36,3 +36,14 @@ Exemplo:
 <br>
 
 ### ✅ Questionário
+Qual classe do Bootstrap utilizamos para estilizar os inputs?
+
+A- input
+
+B- bs-input
+
+C- form-control
+
+D- form-input 
+
+Resposta: Letra D
