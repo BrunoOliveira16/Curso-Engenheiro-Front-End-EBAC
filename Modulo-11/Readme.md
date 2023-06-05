@@ -1,4 +1,5 @@
 ## 📌 Módulo 11: Fundamentos do CSS Responsivo
+O módulo CSS Responsivo aborda tópicos importantes para a criação de sites que se adaptam a diferentes tamanhos de tela. Isso inclui o uso do viewport, unidades flexíveis de medida, breakpoints e imagens responsivas. Também é ensinado como criar um menu dropdown e construir layouts com CSS Grid. Por fim, o módulo ensina como converter um layout fixo em responsivo.
 
 <br>
 
