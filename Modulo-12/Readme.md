@@ -1,4 +1,4 @@
-## 📌 Módulo 11: Fundamentos do Bootstrap
+## 📌 Módulo 12: Fundamentos do Bootstrap
 O módulo Fundamentos do Bootstrap apresenta uma introdução ao framework e seus principais recursos. Os alunos aprendem sobre grids, tipografia, tabelas e botões. Também são abordados tópicos como accordions, collapse e alertas. O módulo inclui ainda uma seção sobre formulários e exercícios práticos para aplicar o conhecimento adquirido.
 
 <br>
