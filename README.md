@@ -26,6 +26,7 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 10:** Plugins jQuery
 - **Módulo 11:** Fundamentos do CSS Responsivo
 - **Módulo 12:** Fundamentos do Bootstrap
-
+- **Módulo 13:** Bootstrap Avançado
+- **Módulo 14:** Projeto 3
 
 Em desenvolvimento...
