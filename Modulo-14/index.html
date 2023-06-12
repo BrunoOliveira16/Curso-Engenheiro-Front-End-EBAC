@@ -15,34 +15,34 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top p-3">
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="header">
         <div class="container">
-            <h1 class="navbar-brand m-0">Restaurante</h1>
+            <h1 class="navbar-brand m-0 section-title">Restaurante</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="navegacao">
                 <ul class="nav nav-pills d-block d-md-flex mt-3 mt-lg-0">
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link active">
+                        <a href="#sobre" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre nós
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#eventos" class="nav-link">
                             <i class="bi bi-calendar-check me-1"></i>
                             Eventos
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#cardapio" class="nav-link">
                             <i class="bi bi-card-text me-1"></i>
                             Nosso cardápio
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#contatos" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Contatos
                         </a>
@@ -51,6 +51,91 @@
             </nav>
         </div>
     </header>
+
+    <main data-bs-spy="scroll" data-bs-target="#header">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./assets/images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/images/slides/slide2.png" alt="Foto de duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/images/slides/slide3.png" alt="Foto de uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./assets/images/restaurante.jpg" alt="Foto do espaço interno do restaurante" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore facere dolore numquam non ad quo sint accusamus porro. Consectetur veniam neque unde vel doloribus aut repellat voluptas magni magnam.</p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore facere dolore numquam non ad quo sint accusamus porro. Consectetur veniam neque unde vel doloribus aut repellat voluptas magni magnam.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./assets/images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam facilis laboriosam provident, debitis vel voluptas eos et, error libero, modi ratione. Quia doloribus reiciendis delectus aspernatur nihil ipsum rerum?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./assets/images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepções para casamento
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam facilis laboriosam provident, debitis vel voluptas eos et, error libero, modi ratione. Quia doloribus reiciendis delectus aspernatur nihil ipsum rerum?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./assets/images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quisquam facilis laboriosam provident, debitis vel voluptas eos et, error libero, modi ratione. Quia doloribus reiciendis delectus aspernatur nihil ipsum rerum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
 
     <!-- Bootstrap JS -->
     <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

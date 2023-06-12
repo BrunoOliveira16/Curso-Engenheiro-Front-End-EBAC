@@ -17,10 +17,18 @@ body {
     color: #FFF;
 }
 
-.navbar-brand {
+.section-title {
     font-family: 'Pacifico', cursive;
 }
 
 .navbar-toggler {
     background-color: #FFF;
+}
+
+#sobre {
+    background-color: #FFEAE6;
+}
+
+.text-colored {
+    color: #e15f41;
 }
