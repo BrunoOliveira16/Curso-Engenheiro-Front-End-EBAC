@@ -6,14 +6,15 @@ body {
     background-color: #e15f41;
 }
 
-.nav .nav-link.active {
+#header .nav .nav-link.active {
     background-color: #FFF;
     color: #e15f41;
 }
 
-.nav .nav-link,
+#header .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.nav-link.active:hover {
     color: #FFF;
 }
 
@@ -25,10 +26,20 @@ body {
     background-color: #FFF;
 }
 
-#sobre {
+#sobre,
+#cardapio {
     background-color: #FFEAE6;
 }
 
 .text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.nav-link.active {
+    background-color: #e15f41;
+    color: #FFF;
+}
+
+.nav-cardapio .nav-link.nav-link:hover {
     color: #e15f41;
 }
