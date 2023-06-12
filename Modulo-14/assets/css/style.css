@@ -35,11 +35,21 @@ body {
     color: #e15f41;
 }
 
-.nav-cardapio .nav-link.nav-link.active {
+.nav-cardapio .nav-link.nav-link.active,
+#contatos button {
     background-color: #e15f41;
     color: #FFF;
 }
 
 .nav-cardapio .nav-link.nav-link:hover {
     color: #e15f41;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
 }
