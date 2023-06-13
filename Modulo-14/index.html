@@ -17,7 +17,7 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-3" id="header">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Restaurante</h1>
+            <h1 class="navbar-brand m-0 section-title">Restaurante Sabor da Casa</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,7 +52,7 @@
         </div>
     </header>
 
-    <main data-bs-spy="scroll" data-bs-target="#header">
+    <main data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
         <section id="sobre">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -84,7 +84,7 @@
                         <div class="col-md-5">
                             <img src="./assets/images/restaurante.jpg" alt="Foto do espaço interno do restaurante" class="d-block w-100 rounded">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore facere dolore numquam non ad quo sint accusamus porro. Consectetur veniam neque unde vel doloribus aut repellat voluptas magni magnam.</p>
                             <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
@@ -335,23 +335,23 @@
             <div class="container">
                 <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-5">
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
-                                <input type="text" id="nome" class="form-control" required>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
-                                <input type="email" id="email" class="form-control" required>
+                                <input type="email" id="email" name="email" class="form-control" required>
                             </div>
                             <div class="mb-3">
                                 <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
-                                <input type="tel" id="telefone" class="form-control">
+                                <input type="tel" id="tel" name="tel" class="form-control">
                             </div>
                             <div class="mb-3">
                                 <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
-                                <textarea class="form-control" id="mensagem" required></textarea>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
                             </div>
                             <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
@@ -397,5 +397,14 @@
 
     <!-- Bootstrap JS -->
     <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- jQuery-->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+     <!-- jQuery Mask-->
+     <script src="./assets/libs/jquery.mask.min.js"></script>
+     <!-- jQuery Validate -->
+     <script src="./assets/libs/jquery.validate.min.js"></script>
+     <script src="./assets/libs/messages_pt_BR.min.js"></script>
+     <!-- JavaScript -->
+     <script src="./assets/js/main.js"></script>
 </body>
 </html>

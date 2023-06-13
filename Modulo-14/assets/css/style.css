@@ -53,3 +53,13 @@ body {
 .social-links a {
     text-decoration: none;
 }
+
+.error {
+    color: rgb(199, 32, 32);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
