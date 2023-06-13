@@ -1,0 +1,15 @@
+{
+  "name": "exemplo-sass",
+  "version": "1.0.0",
+  "description": "Projeto para uso didático do sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.3"
+  }
+}
