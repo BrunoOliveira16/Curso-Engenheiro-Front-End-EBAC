@@ -4,7 +4,7 @@
   "description": "Projeto para uso didático do sass",
   "main": "index.js",
   "scripts": {
-    "sass": "sass",
+    "sass": "sass src/main.scss build/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bruno Oliveira",

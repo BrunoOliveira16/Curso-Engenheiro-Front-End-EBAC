@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.produtos {
+  background-color: green;
+  margin-top: 24px;
+}
+
+body {
+  background-color: #eee;
+}
+
+header h1 {
+  color: #111;
+  font-size: 2rem;
+}
+
+button {
+  padding: 16px;
+  color: #111;
+}
+button:hover {
+  background-color: rgb(9, 56, 9);
+}
+button.sucesso {
+  background-color: green;
+}
+
+/*# sourceMappingURL=main.css.map */

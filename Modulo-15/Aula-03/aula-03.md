@@ -25,14 +25,14 @@ body {
 <br>
 
 ### ✅ Questionário
-Através de qual comando acessamos o NodeJS pelo terminal?
+Como declaramos uma variável no SASS?
 
-A- start nodejs
+A- $NOME_DA_VARIAVEL: VALOR;
 
-B- run node
+B- var NOME_DA_VARIAVEL = VALOR;
 
-C- node
+C- var NOME_DA_VARIAVEL: VALOR;
 
-D- nodejs 
+D- $NOME_DA_VARIAVEL = VALOR;  
 
-Resposta: Letra C
+Resposta: Letra A

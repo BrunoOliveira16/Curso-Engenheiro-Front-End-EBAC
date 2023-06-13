@@ -1,16 +1,33 @@
-## 📝 Aula 01: Introdução ao Node e NPM
+## 📝 Aula 04: Módulos
+No SASS podemos escrever os estilos da página em vários arquivos, modularizando o projeto.
+
+Para isso utilizamos a palavra reservada @use e importamos o arquivo com uma porção de código SASS num arquivo principal.
+
+Exemplo:
+```
+// reset.scss 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+// main.scss
+@use "reset" // sem a extensão .scss
+@use "secoes/produtos" // para acessar uma pasta
+```
 
 <br>
 
 ### ✅ Questionário
-Através de qual comando acessamos o NodeJS pelo terminal?
+Como podemos importar arquivos no SASS?
 
-A- start nodejs
+A- require 'arquivo.sass'
 
-B- run node
+B- @use 'arquivo'
 
-C- node
+C- import 'arquivo.sass'
 
-D- nodejs 
+D- _ @require 'arquivo' 
 
-Resposta: Letra C
+Resposta: Letra B

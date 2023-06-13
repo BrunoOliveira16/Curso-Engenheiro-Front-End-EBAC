@@ -1,0 +1,27 @@
+@use './config/reset';
+@use './config/cores';
+@use './secoes/produtos';
+
+body {
+    background-color: cores.$cor-fundo;
+}
+
+header {
+    h1 {
+        color: cores.$cor-secundaria;
+        font-size: 2rem;
+    }
+}
+
+button {
+    padding: 16px;
+    color: cores.$cor-secundaria;
+
+    &:hover {
+        background-color: cores.$cor-hover;
+    }
+
+    &.sucesso {
+        background-color: cores.$cor-principal;
+    }
+}
