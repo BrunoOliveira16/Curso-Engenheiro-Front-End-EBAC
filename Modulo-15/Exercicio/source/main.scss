@@ -1,0 +1,94 @@
+@use './config/reset';
+@use './config/variaveis';
+@use './config/mixin';
+@use 'sass:math';
+
+@function pixelParaRem($alvoEmPixel, $contextoEmPixel: 16px) {
+    @return math.div($alvoEmPixel, $contextoEmPixel)+rem;
+}
+
+body {
+    background-color: variaveis.$background-primary-color;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: variaveis.$background-second-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        @include mixin.displayBetween;
+        padding: variaveis.$normal-font-size 0;
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: variaveis.$medium-font-size;
+
+        a {
+            color: variaveis.$font-primary-color;
+        }
+    }
+}
+
+section {
+    padding: pixelParaRem(56px, 16px) 0;
+}
+
+.products {
+    @include mixin.displayGrid(3, 32.66%, 1%);
+    row-gap: 4%;
+    width: 100%;
+    margin-top: pixelParaRem(40px, 16px);
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: variaveis.$normal-font-size;
+}
+
+.product-button {
+    display: block;
+    background-color: variaveis.$background-button-color;
+    color: variaveis.$font-primary-color;
+    text-align: center;
+    text-decoration: none;
+    padding: variaveis.$small-font-size 0;
+    border-radius: variaveis.$small-font-size;
+    margin-top: variaveis.$small-font-size;
+
+    &:hover {
+        background-color: variaveis.$background-hover-color;
+    }
+}
+
+@media screen and (max-width: variaveis.$tablet) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        @include mixin.displayGrid(2, 48.5%, 3%);
+    }
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: variaveis.$big-font-size;
+    }
+}

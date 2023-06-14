@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: variaveis.$font-primary;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
