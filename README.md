@@ -1,5 +1,5 @@
 # 📌 Curso Engenheiro Front-End
-Este repositório trata-se da adição dos conteúdos das aulas do curso engenheiro front-end da EBAC.
+Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolvedor front-end de sucesso. Algumas das habilidades que abordaremos incluem conhecimento de HTML, CSS e JavaScript, bem como o uso de ferramentas como Git/Github. Também exploraremos frameworks populares como Vue.js e bibliotecas JavaScript como jQuery, SASS e React.js. Além disso, você ganhará experiência em construir interfaces que se comunicam com APIs. 
 
 <br>
 
