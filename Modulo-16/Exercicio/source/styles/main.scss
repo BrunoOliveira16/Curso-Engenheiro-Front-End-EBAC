@@ -1,0 +1,14 @@
+@use './config/reset';
+@use './config/variaveis';
+
+body {
+    background-color: variaveis.$primary-color;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+}
+
+h1 {
+    color: variaveis.$second-color;
+}
