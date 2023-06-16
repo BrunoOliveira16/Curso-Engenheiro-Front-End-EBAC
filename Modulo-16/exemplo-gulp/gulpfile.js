@@ -17,5 +17,5 @@ function dizTchau() {
     console.log("Tchau Gulp")
 }
 
-exports.default = gulp.series(funcaoPadrao, dizOi);
+exports.default = gulp.parallel(funcaoPadrao, dizOi);
 exports.dizOi = dizOi;
