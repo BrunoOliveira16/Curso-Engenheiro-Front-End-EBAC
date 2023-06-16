@@ -35,6 +35,8 @@ Na primeira linha, o módulo Gulp é importado usando a função require.
 
 As tarefas públicas são exportadas usando a propriedade exports do módulo. A tarefa padrão é definida como uma série de duas tarefas: funcaoPadrao e dizOi.
 
+<img src="./img-gulp.jpg" alt="imagem do resultado do comando gulp no terminal">
+
 <br>
 
 ### ✅ Questionário
