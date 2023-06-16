@@ -1,0 +1,15 @@
+{
+  "name": "exemplo-gulp",
+  "version": "1.0.0",
+  "description": "conteudo para estudos utilizando o gulp",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
