@@ -11,3 +11,4 @@ Descrição das aulas do módulo:
 - **Aula 04:** Execução de tarefas em paralelo
 - **Aula 05:** Usando Gulp para compilar SASS 
 - **Aula 06:** Minificando JS com o Gulp
+- **Aula 07:** Exercicios 

@@ -11,3 +11,4 @@ Descrição das aulas do módulo:
 - **Aula 04:** Módulos
 - **Aula 05:** Mixins 
 - **Aula 06:** Funções e operadores
+- **Aula 07:** Exercicios 
