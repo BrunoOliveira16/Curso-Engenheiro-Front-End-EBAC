@@ -1,3 +1,12 @@
+.marginBottom8 {
+  margin-bottom: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #341f97;
   color: #c8d6e5;
@@ -16,4 +25,27 @@ body {
   .container {
     max-width: 70%;
   }
+}
+header {
+  padding: 24px;
+}
+header .profile-avatar {
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+}
+.profile-bio {
+  text-align: center;
+}
+.profile-bio-main {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.profile-bio-subtitle {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.profile-bio-description {
+  font-size: 14px;
+  opacity: 0.7;
 }

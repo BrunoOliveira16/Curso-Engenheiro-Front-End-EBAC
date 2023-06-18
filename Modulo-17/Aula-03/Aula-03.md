@@ -14,7 +14,7 @@ O LESS possui um recurso chamado escaping, com este recurso podemos armazenar um
 <br>
 
 ### Histórico Projeto
-Nesta Aula adiconamos mais estilos ao main.less:
+Nesta Aula adicionamos mais estilos ao main.less:
 ```
 @breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
 @breakpointMobile: ~"(max-width: 767px)";

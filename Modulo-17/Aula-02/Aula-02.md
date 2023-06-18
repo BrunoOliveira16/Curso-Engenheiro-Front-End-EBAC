@@ -26,7 +26,7 @@ h1 {
 <br>
 
 ### Histórico Projeto
-Nesta Aula criamos um arquivo variaveis.less e adiconamos estilos ao main.less:
+Nesta Aula criamos um arquivo variaveis.less e adicionamos estilos ao main.less:
 ```
 //variaveis.less
 @background-color: #341f97;
