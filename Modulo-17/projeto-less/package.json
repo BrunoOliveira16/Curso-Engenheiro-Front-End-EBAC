@@ -1,0 +1,16 @@
+{
+  "name": "projeto-less",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
