@@ -9,12 +9,19 @@
 }
 body {
   background-color: #341f97;
-  color: #c8d6e5;
+  color: #e0e4e8;
+}
+li {
+  list-style: none;
 }
 .container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
@@ -27,7 +34,7 @@ body {
   }
 }
 header {
-  padding: 24px;
+  padding-bottom: 24px;
 }
 header .profile-avatar {
   display: block;
@@ -48,4 +55,37 @@ header .profile-avatar {
 .profile-bio-description {
   font-size: 14px;
   opacity: 0.7;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 240px;
+  width: 100%;
+  margin: 0 auto;
+}
+.social-links li img {
+  transition: all ease 0.8s;
+}
+.social-links li img:hover {
+  transform: scale(1.3);
+}
+.projects-list {
+  margin-top: 32px;
+}
+.projects-list-item a {
+  text-decoration: none;
+  background-color: #54a0ff;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #e0e4e8;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #54a0ff;
+  transition: all ease 0.8s;
+}
+.projects-list-item a:hover {
+  color: #54a0ff;
+  background-color: transparent;
 }

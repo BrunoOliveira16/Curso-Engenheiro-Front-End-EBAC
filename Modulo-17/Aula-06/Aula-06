@@ -1,0 +1,62 @@
+## 📝 Aula 06: Finalizando o projeto 
+### Histórico Projeto
+Nesta Aula adicionamos mais estilos ao main.less:
+```
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
+
+    li {
+        img {
+            transition: all ease .8s;
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+
+.projects-list {
+    margin-top: 32px;
+
+    &-item {
+        a {
+            text-decoration: none;
+            background-color: #colors[buttons-color];
+            display: block;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            text-align: center;
+            color: #colors[text-color];
+            font-weight: bold;
+            border-radius: 30px;
+            border: 2px solid #colors[buttons-color];
+            transition: all ease .8s;
+
+            &:hover {
+                color: #colors[buttons-color];
+                background-color: transparent;
+            }
+        }
+    }
+}
+```
+
+<br>
+
+### ✅ Questionário
+Como fazemos o consumo de um dado armazenado em um map?
+
+A- #cores(˜corPrincipal˜)
+
+B- #cores.get(˜corPrincipal˜)
+
+C- #cores[corPrincipal]
+
+D- #cores.corPrincipal  
+
+Resposta: letra C
