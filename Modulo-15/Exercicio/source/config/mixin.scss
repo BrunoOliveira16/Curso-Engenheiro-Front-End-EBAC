@@ -1,0 +1,11 @@
+@mixin displayBetween() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin displayGrid($columns: 3, $size-columns: 32.66%, $column-gap: 1%) {
+    display: grid;
+    grid-template-columns: repeat($columns, $size-columns);
+    column-gap: $column-gap;
+}

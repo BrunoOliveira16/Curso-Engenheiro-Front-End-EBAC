@@ -1,0 +1,15 @@
+{
+  "name": "exercicio-sass",
+  "version": "1.0.0",
+  "description": "projeto - exercicio sass do modulo 15 curso engenheiro front-end",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.4"
+  }
+}
