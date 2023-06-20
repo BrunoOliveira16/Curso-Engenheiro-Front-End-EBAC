@@ -12,6 +12,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Gulp](https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white)
 ![Less](https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=less&logoColor=white)
+![Grunt](https://img.shields.io/badge/Grunt-E48632?style=for-the-badge&logo=grunt&logoColor=white)
 
 <br>
 
@@ -34,5 +35,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 15:** Introdução ao SASS
 - **Módulo 16:** Automação de tarefas com Gulp
 - **Módulo 17:** Introdução ao LESS
+- **Módulo 18:** Automação de tarefas com Grunt
 
 Em desenvolvimento...
