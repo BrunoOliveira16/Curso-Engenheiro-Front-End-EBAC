@@ -1,0 +1,87 @@
+@import "./config/maps.less";
+@import "./config/mixins.less";
+@import "./config/reset.less";
+@import "./config/variables.less";
+
+@breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
+@breakpointMobile: ~"(max-width: 767px)";
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media @breakpointTablet {
+        max-width: 80%;
+    }
+
+    @media @breakpointMobile {
+        max-width: 90%;
+    }
+}
+
+header {
+    background-color: #colors[bg-second-color];
+    .header-sticky();
+
+    .container {
+        .display-between();
+        padding: @normal-size 0;
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: @medium-size;
+
+        a {
+            color: #colors[text-color];
+        }
+    }
+}
+
+section {
+    padding: @bigger-size 0;
+}
+
+.products {
+    width: 100%;
+    margin-top: @big-size;
+    .grid-columns(3, 32.66%, 1%, 4%);
+
+    @media @breakpointTablet {
+        .grid-columns(2, 48.5%, 3%, 4%);
+    }
+
+    @media @breakpointMobile {
+        display: block;
+    }
+}
+
+.product-item {
+    img {
+        width: 100%;
+        border-radius: @normal-size;
+    }
+
+    @media @breakpointMobile {
+        margin-bottom: @large-size;
+    }
+} 
+
+.product-button {
+    display: block;
+    background-color: #colors[buttons-primary-color];
+    color: #colors[text-color];
+    text-align: center;
+    padding: @small-size 0;
+    border-radius: @small-size;
+    margin-top: @small-size;
+
+    &:hover {
+        background-color: #colors[buttons-second-color];
+    }
+}

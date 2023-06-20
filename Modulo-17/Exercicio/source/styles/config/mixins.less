@@ -1,0 +1,18 @@
+.display-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.grid-columns(@columns, @size-columns, @column-gap, @row-gap) {
+    display: grid;
+    grid-template-columns: repeat(@columns, @size-columns);
+    column-gap: @column-gap;
+    row-gap: @row-gap;
+}
