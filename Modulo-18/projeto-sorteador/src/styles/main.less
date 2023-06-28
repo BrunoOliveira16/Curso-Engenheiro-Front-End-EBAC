@@ -1,0 +1,62 @@
+@primary-font-family: 'Roboto', sans-serif;
+@second-font-family: 'Lobster', cursive;
+@bg-primary-color: #eb3b5a;
+@bg-second-color: #f7b731;
+@text-primary-color: #FFF;
+@text-second-color: #011;
+
+body {
+    background-color: @bg-primary-color;
+    font-family: @primary-font-family;
+    color: @text-primary-color;
+}
+
+h1 {
+    font-family: @second-font-family;
+    font-size: 3em;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @bg-second-color;
+    color: @text-second-color;
+    font-family: @primary-font-family;
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: @text-primary-color;
+    border-bottom: 6px solid @text-primary-color;
+}
+
+.resultado {
+    padding: 16px;
+    margin-block: 80px;
+    border: 8px dotted @text-primary-color;
+    display: none;
+
+    span {
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+    }
+}

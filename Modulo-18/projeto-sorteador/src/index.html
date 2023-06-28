@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS">
+</head>
+<body>
+    <main>
+        <h1>Sorteador</h1>
+        <form id="form-sorteador">
+            <div>
+                <label for="numero-maximo">Número máximo</label>
+                <input type="number" id="numero-maximo" required min="2" value="2" step="1">
+            </div>
+            <button type="submit">Sortear número</button>
+        </form>
+        <div class="resultado">
+            O número sorteado foi: <span id="resultado-valor"></span>
+        </div>
+    </main>
+
+    <script src="@@ENDERECO_DO_JS"></script>
+</body>
+</html>
