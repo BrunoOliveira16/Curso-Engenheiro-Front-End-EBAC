@@ -1,0 +1,46 @@
+@bg-primary-color: #148a53;
+@bg-second-color: #156415;
+@text-primary-color: #e7dede;
+
+body {
+    background-color: @bg-primary-color;
+    color: @text-primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 16px auto;
+    padding: 16px;
+    border: 2px solid @text-primary-color;
+    text-align: center;
+}
+
+button {
+    font-size: 24px;
+    background-color: @bg-second-color;
+    color: @text-primary-color;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+
+    &:hover {
+        background-color: @text-primary-color;
+        color: #148a53;
+    }
+}
+
+.resultado {
+    font-size: 24px;
+    opacity: 0;
+    margin-top: 0;
+    transition: opacity 1s, margin-top 1.6s; 
+
+    &-ativo {
+        opacity: 1;
+        margin-top: 20px;
+    }
+}
