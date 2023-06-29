@@ -171,6 +171,12 @@ SMACSS é um padrão flexível, elaborado com base em anos de observação e exp
 
 <br>
 
+### Link
+
+- https://smacss.com/
+
+<br>
+
 ## ✅ Questionário
 Como o SMACSS divide o CSS?
 

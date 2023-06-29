@@ -62,6 +62,11 @@ Pode existir centenas de links na página e o navegador irá verificar cada um d
 
 <br>
 
+### Link
+- https://specificity.keegan.st/
+
+<br>
+
 ## ✅ Questionário
 Qual dos seletores a seguir é menos performático?
 
