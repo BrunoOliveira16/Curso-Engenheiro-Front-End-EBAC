@@ -36,5 +36,7 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 16:** Automação de tarefas com Gulp
 - **Módulo 17:** Introdução ao LESS
 - **Módulo 18:** Automação de tarefas com Grunt
+- **Módulo 19:** Boas práticas de CSS
+- **Módulo 20:** Construindo e-mails com HTML
 
 Em desenvolvimento...
