@@ -1,0 +1,15 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "Exercicio Modulo 19 - Boas Praticas com CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}
