@@ -1,4 +1,4 @@
-## 📝 Aula 04: Criando um e-mail de confirmação de pedido
+## 📝 Aula 05: Criando um e-mail de promoções
 Foi desenvolvido o modelo de e-mail abaixo:
 
 <img src="./images/img-01.jpg" alt="email recuperação de senha">
