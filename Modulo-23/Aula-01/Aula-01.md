@@ -128,6 +128,7 @@ Agora, aqui estão alguns exemplos de URLs que não seguem as boas práticas RES
 
 ## ✅ Questionário
 Qual das opções a seguir não é um método HTTP válido?
+
 A- POST;
 
 B- GET;

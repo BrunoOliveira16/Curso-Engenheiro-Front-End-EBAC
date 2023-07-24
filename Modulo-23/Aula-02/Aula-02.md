@@ -91,7 +91,8 @@ Por fim, a função usa o método ``setTimeout`` para agendar uma função para 
 <br>
 
 ## ✅ Questionário
-Qual função utilizamos para configurar uma requisição com XMLHtttpRequest (sem fazer o envio), considerando: const http = new XMLHttpRequest()
+Qual função utilizamos para configurar uma requisição com XMLHtttpRequest (sem fazer o envio), considerando: const http = new XMLHttpRequest():
+
 A- http.open("GET", "ROTA”);
 
 B- http.send("GET", "ROTA”);
