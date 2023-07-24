@@ -38,8 +38,9 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 18:** Automação de tarefas com Grunt
 - **Módulo 19:** Boas práticas de CSS
 - **Módulo 20:** Construindo e-mails com HTML
-- **Módulo 21:** Projeto 4A
-- **Módulo 22:** Projeto 4B
+- **Módulo 21:** Projeto 4 - Landig Page clone disney+
+- **Módulo 22:** Projeto 4 - Landig page pagina de evento
 - **Módulo 23:** Ajax e Exceções
+- **Módulo 24:** Orientação a Objetos com JavaScript
 
 Em desenvolvimento...
