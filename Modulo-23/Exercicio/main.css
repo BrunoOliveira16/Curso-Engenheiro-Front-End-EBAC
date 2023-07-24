@@ -70,3 +70,10 @@ header .container {
 .numbers-item h4 {
     font-size: .3em;
 }
+
+.error {
+    color: red;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 2rem;
+}
