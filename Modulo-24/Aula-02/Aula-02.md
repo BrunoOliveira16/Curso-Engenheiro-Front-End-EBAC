@@ -59,4 +59,4 @@ C- const joao = Pessoa.new("João");
 
 D- const joao = Pessoa.create("João");
 
-Resposta: Letra B
+Resposta: Letra B. Para criar um objeto através do uso de construtores, usamos a palavra-chave new seguida pelo nome da função construtora e quaisquer argumentos necessários entre parênteses.
