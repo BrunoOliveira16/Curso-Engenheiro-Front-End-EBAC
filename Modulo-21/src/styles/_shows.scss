@@ -1,0 +1,59 @@
+@use 'configs/variables.scss';
+
+.shows {
+    padding: 2vw 5.6vw;
+    min-height: 50vh;
+
+    &__list {
+        display: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 2.75rem;
+
+        @media(max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &--is-active {
+            display: grid;
+        }
+
+        &__item {
+            img {
+                max-width: 100%;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    &__tabs {
+        display: flex;
+        justify-content: center;
+
+        @media(max-width: 768px) {
+            white-space: nowrap;
+            overflow-x: scroll;
+            padding-left: 1.8rem;
+        }
+
+        &__button {
+            color: variables.$text-second-color;
+            font-size: 1.25rem;
+            border: none;
+            border-bottom: 5px solid transparent;
+            padding-bottom: .5rem;
+            background: none;
+            text-transform: uppercase;
+            margin: 0 1vw;
+            cursor: pointer;
+
+            &--is-active {
+                border-color: variables.$text-second-color;
+            }
+
+            @media(max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}

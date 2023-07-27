@@ -1,0 +1,69 @@
+@use './configs/variables.scss';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 90vh;
+    background-image: url(../images/hero_desktop.jpeg);
+    text-align: center;
+    background-size: cover;
+
+    @media(max-width: 768px) {
+        background-image: url(../images/hero_celular.jpeg);
+        padding-top: calc(50vw + 1.6rem);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+    }
+
+    .button {
+        margin-top: 2vw;
+        margin-bottom: .5rem;
+    }
+
+    &__content {
+        max-width: 640px;
+
+        &__branding {
+            max-width: 320px;
+            margin: 0 auto 2.375rem;
+
+            @media(max-width: 768px) {
+                max-width: 180px;
+            }
+        }
+
+        .title--small {
+            margin-bottom: 4rem;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+
+            &:last-child {
+                margin-top: 3.75rem;
+            }
+        }
+
+        &__combos {
+            display: flex;
+            justify-content: space-between;
+
+            @media(max-width: 768px) {
+                display: block;
+            }
+
+            &__combo {
+                width: calc(50% - .75rem);
+
+                @media(max-width: 768px) {
+                    width: 100%;
+                    margin-bottom: 1.5rem;
+                }
+
+                img {
+                    max-height: 3.75rem;
+                }
+            }
+        }
+    }
+}
