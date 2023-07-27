@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "browserslist": ">0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9"
+  }
+}
