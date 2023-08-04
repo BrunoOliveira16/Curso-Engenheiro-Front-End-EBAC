@@ -1,181 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mandarin Trends</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
+    <style type="text/css">
+        h1, h2, p {
+            text-align: left;
         }
 
-        h1 {
-            font-size: 22px;
-            font-weight: bold;
-        }
-
-        p {
-            font-size: 13px;
-            color: #5e5c5c;
-        }
-
-        table {
-            max-width: 640px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        thead {
-            max-width: 600px;
-            width: 100%;
-        }
-
-        thead img {
-            max-width: 600px;
-            max-height: 180px;
-        }
-
-        tbody {
-            width: 100%;
-        }
-
-        tbody tr td {
-            padding: 0 35px;
-        }
-
-        .cards {
-            display: flex;
-            margin: 20px 0;
-        }
-
-        .cards img {
-            max-width: 257px;
-            height: 200px;
-        }
-
-        tfoot {
-            width: 100%;
-            text-align: center;
-        }
-        @media screen and (max-width: 600px) {
-            table {
-                width: 100%;
-                padding: 0;
-            }
-            h1 {
-                font-size: 18px;
-            }
-            thead img,
-            tbody img {
-                width: 100%;
-                height: 100%;
-            }
-            tbody tr td,
-            tfoot tr td {
-                padding: 0 15px;
-            }
-
-            .cards {
-                display: block;
-                padding: 20px 0;
-            }
-
-            .cards img {
-                max-width: 100%;
-                margin-top: 5px;
-                margin-bottom: 5px;
-            }
+        @media only screen and (max-width: 640px) {
+          table.container {
+            width: 100% !important;
+          }
         }
     </style>
 </head>
 <body>
-    <table cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
-        <thead>
-            <tr bgcolor="#FFF">
-                <th colspan="2" style="padding-top: 20px;">
-                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/header.jpg" alt="imagem de cabeçalho do email">
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr bgcolor="#FFF">
-                <td colspan="2"">
-                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/image-01.jpg" alt="imagem do evento NRF 2020" style="max-width: 100%;">
-                </td>
-            </tr>
-            <tr bgcolor="#FFF">
-                <td colspan="2">
-                    <h1 style="margin-top: 10px; margin-bottom: 5px;">
-                        <strong>
-                            NRF 2020: conheça os top 5 assuntos do evento.
-                        </strong>
-                    </h1>
-                    <p style="margin: 0; color: #5e5c5c; font-size: 13px;">
-                        O maior evento sobre varejo do mundo mostrando as tendências, oportunidades e inovações para o setor.
-                    </p>
-                    <p style="font-size: 11px; margin-top: 10px; margin-bottom: 0;">
-                        <i style="color: #afaaaa;">
-                            Fonte: CMO ADOBE
-                        </i>
-                    </p>
-                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-01.jpg" alt="linha criativa colorida" width="257" height="5">
-                </td>
-            </tr>
-            <tr bgcolor="#FFF" style="padding-top: 24px; padding-bottom: 18px;">
-                <td colspan="2">
-                    <div class="cards">
-                        <div>
-                            <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/kobe.jpg" alt="imagem do kobe bryant">
-                            <h2 style="font-size: 18px; margin: 10px 0;">
-                                Petição para colocar Kobe Bryant no logo da NBA
-                            </h2>
-                            <div style="width: 60%;">
-                                <p style="font-size: 11px; margin-bottom: 0;">
-                                    <i style="color: #afaaaa;">
-                                        Fonte: Daily Mail
-                                    </i>
-                                </p>
-                                <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-02.jpg" alt="linha criativa colorida" style="height: 5px; width: 160px;">
-                            </div>
-                        </div>
-                        <div>
-                            <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/whatsapp.jpg" alt="whatsapp">
-                            <h2 style="font-size: 18px; margin: 10px 0;">
-                                WhatsApp terá função de pagamentos em 2020.
-                            </h2>
-                            <div style="width: 60%;">
-                                <p style="font-size: 11px; margin-bottom: 0;">
-                                    <i style="color: #afaaaa;">
-                                        Fonte: Proxxima
-                                    </i>
-                                </p>
-                                <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-03.jpg" alt="linha criativa colorida" style="height: 5px; width: 160px;">
-                            </div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 0;">
-                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/footer.jpg" alt="banner do rodape" style="max-width: 100%; max-height: 80px;">
-                </td>
-            </tr> 
-        </tbody>
-        <tfoot>
-            <tr>
-                <td align="center" style="padding-top: 18px; padding-bottom: 18px;">
-                    <p style="margin-bottom: 5px;">
-                        Copyright &copy; Mandarin. Todos os direitos reservados.
-                    </p>
-                    <p>
-                        caso não deseje mais receber nossos e-mails, por favor <a href="#" style="color: #5e5c5c;text-decoration: underline; text-underline-offset: 3px;">clique aqui.</a>
-                    </p>
-                </td>
-            </tr>
-        </tfoot>
-    </table>
+    <center>
+        <table class="container" width="640" cellspacing="0" cellpadding="0" style="font-family: sans-serif; padding-left: 20px; padding-right: 20px; background: #f3f3f3;">
+            <thead style="width: 100%;">
+                <tr>
+                    <th colspan="2" style="padding-top: 20px; background: #ffffff;" >
+                        <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/header.jpg" alt="imagem de cabeçalho do email" width="600" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+                    </th>
+                </tr>
+            </thead>
+            <tbody style="width: 100%;">
+                <tr>
+                    <td colspan="2" align="center" style="padding-left: 35px; padding-right: 35px; background: #ffffff;">
+                        <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/image-01.jpg" alt="imagem do evento NRF 2020" width="600" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding-left: 35px; padding-right: 35px; width: 100%; background: #ffffff;">
+                        <h1 style="margin-top: 10px; margin-bottom: 5px; font-size: 22px; font-weight: bold; width: 100%;">
+                            <strong>
+                                NRF 2020: conheça os top 5 assuntos do evento.
+                            </strong>
+                        </h1>
+                        <p style="margin: 0; color: #5e5c5c; font-size: 13px;">
+                            O maior evento sobre varejo do mundo mostrando as tendências, oportunidades e inovações para o setor.
+                        </p>
+                        <p style="font-size: 11px; margin-top: 10px; margin-bottom: 10px;">
+                            <i style="color: #afaaaa;">
+                                Fonte: CMO ADOBE
+                            </i>
+                        </p>
+                        <img align="left" src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-01.jpg" alt="linha criativa colorida" width="257" height="5">
+                    </td>
+                </tr>
+                <tr style="padding-top: 24px; padding-bottom: 18px;">
+                    <td colspan="2" style="padding-left: 35px; padding-right: 35px; background: #ffffff;">
+                        <table class="container" width="600" cellspacing="0" cellpadding="0" style="padding-top: 16px; padding-bottom: 16px; font-family: sans-serif;">
+                            <tr>
+                                <td valign="top" style="padding-right: 5px;">
+                                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/kobe.jpg" alt="imagem do kobe bryant" height="200" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+                                    <h2 style="font-size: 18px; margin-top: 10px; margin-bottom: 10px;">
+                                        Petição para colocar Kobe Bryant no logo da NBA
+                                    </h2>
+                                    <div style="width: 60%;">
+                                        <p style="font-size: 11px; margin-bottom: 0;">
+                                            <i style="color: #afaaaa;">
+                                                Fonte: Daily Mail
+                                            </i>
+                                        </p>
+                                        <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-02.jpg" alt="linha criativa colorida" width="160" height="5">
+                                    </div>
+                                </td>
+                                <td valign="top" style="padding-left: 5px;">
+                                    <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/whatsapp.jpg" alt="whatsapp" height="200" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+                                    <h2 style="font-size: 18px; margin-top: 10px; margin-bottom: 10px;">
+                                        WhatsApp terá função de pagamentos em 2020.
+                                    </h2>
+                                    <div style="width: 60%;">
+                                        <p style="font-size: 11px; margin-bottom: 0;">
+                                            <i style="color: #afaaaa;">
+                                                Fonte: Proxxima
+                                            </i>
+                                        </p>
+                                        <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/linha-criativa-03.jpg" alt="linha criativa colorida" width="160" height="5">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <img src="https://raw.githubusercontent.com/BrunoOliveira16/Curso-Engenheiro-Front-End-EBAC/main/Modulo-20/email-teste/img/footer.jpg" alt="banner do rodape" width="600" height="80" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
+                    </td>
+                </tr> 
+            </tbody>
+            <tfoot style="width: 100%;">
+                <tr>
+                    <td style="padding-bottom: 18px; padding-top: 18px;">
+                        <p style="margin-bottom: 5px; font-size: 13px; color: #5e5c5c; text-align: center;" >
+                            Copyright &copy; Mandarin. Todos os direitos reservados.
+                        </p>
+                        <p style="font-size: 13px; color: #5e5c5c; margin: 0; text-align: center;">
+                            caso não deseje mais receber nossos e-mails, por favor <a href="#" style="font-size: 13px; color: #5e5c5c; text-decoration: underline; text-underline-offset: 3px;">clique aqui.</a>
+                        </p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </center>
 </body>
 </html>
