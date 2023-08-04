@@ -17,14 +17,7 @@ const alunos = [
 
 // Função para checar alunos aprovados
 function checarAlunos(alunos) {
-    const alunosAprovados = [];
-
-    alunos.map((aluno) => {
-        if(aluno.nota >= 6) {
-            alunosAprovados.push(aluno)
-        }
-    });
-    return alunosAprovados;
+    return alunos.filter(aluno => aluno.nota >= 6);
 };
 
 // Chama a função checarAlunos com o array de alunos e exibe o resultado no console
