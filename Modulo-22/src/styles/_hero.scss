@@ -1,0 +1,52 @@
+@use 'variables';
+
+.hero {
+    padding-block: 64px 100px;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        position: relative;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg-primary-color);
+        opacity: .7;
+    }
+
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+    }
+
+    &__text {
+        margin-block: 64px;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    @media (max-width: 640px) {
+        padding-block: 40px;
+
+        &__logo {
+            height: 40px;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+            margin-block: 24px;
+        }
+    }
+}

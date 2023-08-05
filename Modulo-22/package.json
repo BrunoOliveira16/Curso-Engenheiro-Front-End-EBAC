@@ -1,0 +1,17 @@
+{
+  "name": "ebac-talks",
+  "version": "1.0.0",
+  "description": "landing page de um evento ficticio",
+  "scripts": {
+    "dev": "parcel index.html src/scripts/main.js src/styles/main.scss",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "sharp": "^0.31.3"
+  }
+}

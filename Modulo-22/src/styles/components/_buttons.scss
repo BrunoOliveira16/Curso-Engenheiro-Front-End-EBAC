@@ -1,0 +1,19 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+    &--primary {
+        color: var(--text-primary-color);
+        background-color: var(--btn-primary-color);
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+}
