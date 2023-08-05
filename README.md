@@ -14,6 +14,8 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Less](https://img.shields.io/badge/Less-1D365D?style=for-the-badge&logo=less&logoColor=white)
 ![Grunt](https://img.shields.io/badge/Grunt-E48632?style=for-the-badge&logo=grunt&logoColor=white)
 ![Babel](https://img.shields.io/badge/Babel-EEDA7C?style=for-the-badge&logo=babel&logoColor=white)
+![Parcel](https://img.shields.io/badge/Parcel-E48632?style=for-the-badge&logo=parcel&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 <br>
 
@@ -44,5 +46,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 23:** Ajax e Exceções
 - **Módulo 24:** Orientação a Objetos com JavaScript
 - **Módulo 25:** Recursos do ES6+
+- **Módulo 26:** Conhecendo o TypeScript
 
 Em desenvolvimento...
