@@ -7,6 +7,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
@@ -16,6 +17,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Babel](https://img.shields.io/badge/Babel-EEDA7C?style=for-the-badge&logo=babel&logoColor=white)
 ![Parcel](https://img.shields.io/badge/Parcel-E48632?style=for-the-badge&logo=parcel&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 
 <br>
 
@@ -47,5 +49,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 24:** Orientação a Objetos com JavaScript
 - **Módulo 25:** Recursos do ES6+
 - **Módulo 26:** Conhecendo o TypeScript
+- **Módulo 27:** Visão geral do VueJS
 
 Em desenvolvimento...
