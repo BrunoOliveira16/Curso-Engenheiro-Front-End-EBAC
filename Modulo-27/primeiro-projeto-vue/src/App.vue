@@ -1,47 +1,32 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <h1>{{ dizOla(nome) }}</h1>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <img v-if="gostaDoBatman" :src="urlImagemBatman" alt="imagem do Batman" width="500" height="300">
+  <img v-else-if="gostaDoSuperman" :src="urlImagemSuperman" alt="imagem do Superman" width="500" height="300">
+  <h2 v-else>Não curte Heróis da DC</h2><br><br>
 
-  <main>
-    <TheWelcome />
-  </main>
+  <button :disabled="botaoEstaDesabilitado">Enviar mensagem</button>
 </template>
 
+<script setup>
+  const nome = 'Bruno'
+  const meuObj = {
+    nome: 'Bruno',
+    filmeFavorito: 'Vingadores'
+  }
+
+  function dizOla() {
+    return `${nome} diz oi`
+  }
+
+  const urlImagemBatman = 'https://image.api.playstation.com/vulcan/img/rnd/202010/2621/H9v5o8vP6RKkQtR77LIGrGDE.png'
+  const urlImagemSuperman = 'https://www.cultura.sp.gov.br/wp-content/uploads/2018/12/camiseta-superman-hq-ref-sm-hq-08-D_NQ_NP_373505-MLB25038562421_092016-F-1013x1080.jpg'
+
+  const botaoEstaDesabilitado = false;
+
+  const gostaDoBatman = true
+  const gostaDoSuperman = false
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
