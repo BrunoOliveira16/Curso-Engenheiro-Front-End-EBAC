@@ -34,6 +34,14 @@ Em resumo, a diretiva ``v-for`` permite que você renderize uma lista de itens c
 <br>
 
 ## ✅ Questionário
+Como podemos fazer uma iteração dentro do HTML com VueJS?
 
+A- através da diretiva v-loop
 
-Resposta: 
+B- através da diretiva v-for-in
+
+C- através da diretiva v-for
+
+D- através da diretiva v-for-of
+
+Resposta: Para fazer uma iteração dentro do HTML com Vue.js, você pode usar a diretiva v-for. A resposta correta é a letra C. A diretiva v-for é usada para renderizar uma lista de itens com base em um array ou objeto. Ela é semelhante a um loop for em JavaScript, mas é usada diretamente no template do componente.

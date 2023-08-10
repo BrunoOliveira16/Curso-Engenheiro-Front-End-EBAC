@@ -18,6 +18,14 @@ Essas são apenas algumas das práticas comuns e dicas para fazer o deploy de pr
 <br>
 
 ## ✅ Questionário
+Como podemos importar um componente no VueJS?
 
+A- através da palavra use dentro da tag script
 
-Resposta: 
+B- através da palavra require dentro da tag template
+
+C- através da palavra import dentro da tag template
+
+D- através da palavra import dentro da tag script
+
+Resposta: Para importar um componente em Vue.js, você pode usar a palavra-chave import dentro da tag script. A resposta correta é a letra D.

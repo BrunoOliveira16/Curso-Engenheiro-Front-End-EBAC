@@ -31,6 +31,14 @@ Em resumo, os eventos em Vue.js permitem que você responda a ações do usuári
 <br>
 
 ## ✅ Questionário
+Qual atributo utilizamos para adicionar uma classe simples em um elemento com VueJS?
 
+A- :class
 
-Resposta: 
+B- class
+
+C- classNam
+
+D- v-class
+
+Resposta: A resposta correta é a alternativa B. Para adicionar uma classe simples a um elemento em Vue.js, você pode usar o atributo class normalmente, como faria em HTML.
