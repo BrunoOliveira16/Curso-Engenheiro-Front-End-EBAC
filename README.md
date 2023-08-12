@@ -18,6 +18,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Parcel](https://img.shields.io/badge/Parcel-E48632?style=for-the-badge&logo=parcel&logoColor=F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 <br>
 
@@ -50,5 +51,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 25:** Recursos do ES6+
 - **Módulo 26:** Conhecendo o TypeScript
 - **Módulo 27:** Visão geral do VueJS
+- **Módulo 28:** Introdução ao React
 
 Em desenvolvimento...
