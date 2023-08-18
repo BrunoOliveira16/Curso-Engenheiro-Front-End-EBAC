@@ -1,18 +1,25 @@
 import Perfil from "./components/Perfil";
-import Formulario from "./components/Formulario";
+// import Formulario from "./components/Formulario";
+import ReposList from "./components/ReposList";
 import { useState } from "react";
 
 function App() {
-  const [ formularioEstaVisivel, setFormularioEstaVisivel ] = useState(true);
+  const [ nomeUsuario, setNomeUsuario ] = useState("");
+  // const [ formularioEstaVisivel, setFormularioEstaVisivel ] = useState(true);
 
   return (
     <>
-      <h1>Módulo React</h1>
-      <Perfil nome="Bruno" endereco="https://avatars.githubusercontent.com/u/103857382?v=4"/>
-      {formularioEstaVisivel && (
+      <input type='text' onBlur={e => setNomeUsuario(e.target.value)}/>
+      {nomeUsuario.length > 4 && (
+        <>
+          <Perfil nomeUsuario={nomeUsuario} />
+          <ReposList nomeUsuario={nomeUsuario} />
+        </>
+      )}
+      {/* {formularioEstaVisivel && (
         <Formulario />
       )}
-      <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)}>Toggle form</button>
+      <button onClick={() => setFormularioEstaVisivel(!formularioEstaVisivel)}>Toggle form</button> */}
     </>
   )
 }

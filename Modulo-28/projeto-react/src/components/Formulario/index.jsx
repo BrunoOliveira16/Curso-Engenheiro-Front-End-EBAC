@@ -34,7 +34,11 @@ const Formulario = () => {
     }
 
     return (
-        <>
+        <form>
+            <ul>
+                {[1, 2, 3, 4, 5].map((item, index) => <li key={index}>{item}</li>)}
+            </ul>
+            
             <input 
                 type="text" 
                 onChange={alterarNome}
@@ -55,7 +59,7 @@ const Formulario = () => {
                 onChange={event => setMateriaC(parseInt(event.target.value))}
             />
             {resultado()}
-        </>
+        </form>
     );
 };
 

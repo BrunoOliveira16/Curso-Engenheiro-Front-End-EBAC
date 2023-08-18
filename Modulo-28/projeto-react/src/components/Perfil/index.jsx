@@ -1,18 +1,17 @@
 import PropTypes from 'prop-types';
-import './perfil.css';
+import styles from './Perfil.module.css';
 
-const Perfil = ({ nome, endereco }) => {
+const Perfil = ({ nomeUsuario }) => {
   return (
-    <div>
-      <img className="perfil-avatar" src={endereco} alt={`imagem do avatar do usuario ${nome}`}/>
-      <h2 className="perfil-name">{nome}</h2>
-    </div>
+    <header className={styles.header}>
+      <img className={styles.avatar} src={`https://github.com/${nomeUsuario}.png`} alt={`imagem do avatar do usuario ${nomeUsuario}`}/>
+      <h1 className={styles.name}>{nomeUsuario}</h1>
+    </header>
   )
 }
 
 Perfil.propTypes = {
-  nome: PropTypes.string.isRequired,
-  endereco: PropTypes.string.isRequired
+  nomeUsuario: PropTypes.string.isRequired,
 };
 
 export default Perfil;

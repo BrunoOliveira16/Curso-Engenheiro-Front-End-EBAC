@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #0bc66e;
+    --second-color: rgb(12, 85, 42);
+    --text-color: #000;
+    --text-alpha-color: rgba(0, 0, 0, 0.1);
+    --text-second-color: #fff;
+}

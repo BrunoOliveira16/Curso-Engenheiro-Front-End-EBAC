@@ -1,0 +1,34 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    padding: 16px;
+    border: 1px solid var(--text-alpha-color);
+}
+
+.listItemName b{
+    margin-right: 8px;
+}
+
+.listItemLink {
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--text-second-color);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+    transition: all .7s;
+}
+
+.listItemLink:hover {
+    background-color: var(--second-color);
+}
