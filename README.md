@@ -52,5 +52,5 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 26:** Conhecendo o TypeScript
 - **Módulo 27:** Visão geral do VueJS
 - **Módulo 28:** Introdução ao React
-
+- **Módulo 29:** Introdução ao CSS in JS com React
 Em desenvolvimento...
