@@ -1,4 +1,4 @@
-## 📝 Aula 05: Construindo a estrutura
+## 📝 Aula 06: Criando os componentes para textos
 Conteúdo da construção do projeto.
 
 Criado regras de estilo no styled components, tipagem e criação de component Text.
