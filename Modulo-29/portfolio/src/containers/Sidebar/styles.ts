@@ -6,7 +6,6 @@ export const SidebarContainer = styled.div`
   top: 80px;
   left: 0;
 `
-
 export const Description = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
