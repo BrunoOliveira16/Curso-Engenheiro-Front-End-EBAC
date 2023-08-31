@@ -20,6 +20,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
 <br>
 
@@ -54,4 +55,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 27:** Visão geral do VueJS
 - **Módulo 28:** Introdução ao React
 - **Módulo 29:** Introdução ao CSS in JS com React
+- **Módulo 30:** Introdução ao Redux com React
+
 Em desenvolvimento...
