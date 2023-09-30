@@ -24,7 +24,7 @@ Refere-se a modificações em arquivos que foram alterados no diretório de trab
 
 <br>
 
-## Liste alterações (Logs)
+## Liste alterações(Logs)
 ### ✔ Logs (Registros)
 Referem-se aos registros de eventos ou informações relevantes que são registrados por um sistema ou aplicativo. Esses registros são geralmente armazenados em arquivos de log, que registram atividades específicas ocorridas durante a execução de um programa, sistema operacional, serviço da web ou qualquer outro sistema de software.
 

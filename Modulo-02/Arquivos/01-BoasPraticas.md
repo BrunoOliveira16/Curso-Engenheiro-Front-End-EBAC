@@ -4,7 +4,7 @@
 <br>
 
 ## Controle a versão (Github)
-> Acompanhe algumas dicas para fazer o versionamento de código usando o Git:
+> Acompanhe algumas dicas para fazer o versionamento de código usando o Git
 
 ### ✔ Faça commits frequentes e granulares: 
 É uma boa prática fazer commits frequentes e com granularidade adequada. Commits pequenos e atômicos facilitam a revisão de código, a localização de bugs e o rastreamento de alterações. Evite fazer commits com um grande número de alterações não relacionadas. 

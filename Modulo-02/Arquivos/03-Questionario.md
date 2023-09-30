@@ -1,4 +1,4 @@
-# 📌 Quiz 
+# 📌 Questionário
 >módulo 02: Versionamento de código usando o Git
 
 <br>

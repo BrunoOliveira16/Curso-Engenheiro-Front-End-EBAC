@@ -16,7 +16,8 @@ controlou mudanças em seus projetos utilizando o Git Stage;
 - compreendeu o papel do log de commits como um registro histórico das alterações feitas em um projeto ao longo do tempo;
 
 - compreendeu o que são logs no contexto do versionamento de código e por que eles são importantes;
-aprendeu a usar o comando "git log" para visualizar o histórico completo de commits feitos em um projeto;
+
+- aprendeu a usar o comando "git log" para visualizar o histórico completo de commits feitos em um projeto;
 
 - explorou as variações do comando "git log" para adaptar a visualização do histórico de commits conforme necessário;
 

@@ -4,7 +4,7 @@
 <br>
 
 ## Comandos básicos do terminal
-Abra o terminal do MAC, abra o finder, vá em utilitários e depois clique em Terminal.
+Abra o terminal do MAC, abra o finder, vá em utilitários e depois clique em Terminal:
 
 ``ls``: Permite a visualização de arquivos do diretório, sendo pastas ou arquivos que estejam presentes no diretório onde o comando for aplicado. 
 
