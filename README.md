@@ -56,5 +56,8 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 28:** Introdução ao React
 - **Módulo 29:** Introdução ao CSS in JS com React
 - **Módulo 30:** Introdução ao Redux com React
+- **Módulo 31:** Projeto 5 - Part 1
+- **Módulo 32:** Projeto 5 - Part 2
+- **Módulo 33:** React Testing Library
 
 Em desenvolvimento...
