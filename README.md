@@ -21,6 +21,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white)
 
 <br>
 
