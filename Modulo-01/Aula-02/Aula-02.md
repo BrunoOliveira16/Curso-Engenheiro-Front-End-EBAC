@@ -1,0 +1,3 @@
+## 📝 Aula 02: Entenda o mercado
+### Introdução
+O desenvolvedor Front-End pode atuar nas mais diversas indústrias. Em todo setor onde existe a presença da tecnologia, o profissional de front-end se faz presente. As aplicações Back-End, em sua forma mais pura, não são amigáveis e de fácil uso, cabe ao profissional de front-end trazer essa amistosidade e facilidade ao fornecer os recursos do back-end ao usuário final. Esse usuário pode ser o cliente final ou internos.
