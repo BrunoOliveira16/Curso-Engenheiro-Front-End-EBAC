@@ -22,6 +22,7 @@ Neste curso, você aprenderá habilidades essenciais para se tornar um desenvolv
 ![Styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-15C213?style=for-the-badge&logo=jest&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-00897B?style=for-the-badge&logo=cypress&logoColor=white)
 
 <br>
 
@@ -60,5 +61,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 31:** Projeto 5 - Part 1
 - **Módulo 32:** Projeto 5 - Part 2
 - **Módulo 33:** React Testing Library
+- **Módulo 34:** Testes E2E com Cypress
 
 Em desenvolvimento...
