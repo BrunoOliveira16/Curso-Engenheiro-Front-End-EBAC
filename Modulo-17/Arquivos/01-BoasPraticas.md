@@ -58,7 +58,7 @@ Se você deseja limitar o escopo de uma variável a um bloco específico, pode u
 <br>
 
 ## Aplique o escaping 
-Acompanhe alguns exemplos de uso do escaping no Less.
+> Acompanhe alguns exemplos de uso do escaping no Less.
 ### ✔ Escapando um valor: 
 ```
 .element {  
@@ -89,7 +89,7 @@ Recomendamos usar o escaping com cautela, pois você está abdicando dos recurso
 <br>
 
 ## Utilize mixins Declaração de mixins: 
-O uso de mixins no Less ajuda a reduzir a repetição de código e a manter um estilo consistente em todo o projeto. Acompanhe algumas dicas sobre o uso de mixins no Less.
+> O uso de mixins no Less ajuda a reduzir a repetição de código e a manter um estilo consistente em todo o projeto. Acompanhe algumas dicas sobre o uso de mixins no Less.
 ### ✔ Declaração de mixins: 
 Para criar um mixin, use o nome do mixin e os estilos que deseja incluir. Por exemplo: 
 ```
@@ -137,7 +137,7 @@ Se você definir mixins em um arquivo separado, pode importá-los em outros arqu
 <br>
 
 ## Crie mapas
-Conheça exemplos de uso da função transform para manipular algumas propriedades.
+> Conheça exemplos de uso da função transform para manipular algumas propriedades.
 ### ✔ Translate: 
 ```
 transform(translateX(100px)); 
