@@ -62,5 +62,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 32:** Projeto 5 - Part 2
 - **Módulo 33:** React Testing Library
 - **Módulo 34:** Testes E2E com Cypress
+- **Módulo 35:** Projeto 6 - Part 1
 
 Em desenvolvimento...
