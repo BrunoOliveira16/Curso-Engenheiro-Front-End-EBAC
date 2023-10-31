@@ -84,6 +84,5 @@ D- text-align
     align
 
     A resposta correta é "align". Com o atributo align podemos informar qual será o alinhamento de uma coluna através do próprio HTML.
-
     A propriedade text-align é um recurso do CSS e não no HTML, por isso não se encaixa a resposta.
 </details>

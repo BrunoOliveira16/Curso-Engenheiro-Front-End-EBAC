@@ -5,7 +5,7 @@
 
 ## Crie o primeiro e-mail
 ### ✔ ``<td>`` 
-As células de tabela ``(<td>)`` podem ser estilizadas usando CSS para alterar a aparência, cor de fundo, bordas, espaçamento e outros aspectos visuais. Além disso, é possível aplicar classes ou IDs às células para selecioná-las e estilizá-las de forma mais específica usando CSS ou interagir com elas por meio de JavaScript.
+As células de tabela ``<td>`` podem ser estilizadas usando CSS para alterar a aparência, cor de fundo, bordas, espaçamento e outros aspectos visuais. Além disso, é possível aplicar classes ou IDs às células para selecioná-las e estilizá-las de forma mais específica usando CSS ou interagir com elas por meio de JavaScript.
 
 ### ✔ Align 
 Existem diferentes valores possíveis para essa propriedade: 

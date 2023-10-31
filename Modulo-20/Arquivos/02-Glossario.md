@@ -8,7 +8,7 @@
 Tag HTML que representa uma célula de tabela. A sigla "td" é usada para definir uma célula dentro de uma tabela HTML. São usadas para organizar e exibir dados em uma estrutura tabular. Elas estão contidas dentro de linhas (<tr>) e podem conter diversos tipos de conteúdo, como texto, imagens, links e até mesmo elementos HTML mais complexos.
 
 ### ✔ ``<tr>`` (table row “linha de tabela”)
-Tag HTML que representa uma linha de tabela. A sigla "tr" é usada para definir uma linha dentro de uma tabela HTML. São usadas para organizar e agrupar as células de tabela ``(<td>)`` em uma estrutura tabular. Elas são elementos de nível de bloco e geralmente estão contidas dentro do elemento ``<table>``.
+Tag HTML que representa uma linha de tabela. A sigla "tr" é usada para definir uma linha dentro de uma tabela HTML. São usadas para organizar e agrupar as células de tabela ``<td>`` em uma estrutura tabular. Elas são elementos de nível de bloco e geralmente estão contidas dentro do elemento ``<table>``.
 
 <br>
 

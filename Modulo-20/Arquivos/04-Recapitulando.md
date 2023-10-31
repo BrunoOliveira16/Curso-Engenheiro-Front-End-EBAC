@@ -31,4 +31,4 @@ Chegamos ao final do Módulo 20: Construa e-mails com HTML em que você:
 
 - testou e otimizou e-mails para compatibilidade;
 
-- compreendeu a importância da acessibilidade em e-mails.
+- compreendeu a importância da acessibilidade em e-mails;
