@@ -1,5 +1,5 @@
 ## 📌 Módulo 35 - Projeto 6 part 1
-No módulo 31, iniciamos a primeira parte do Projeto 5, criando uma Lista de Tarefas. Começamos entendendo o projeto e realizando a configuração inicial. Em seguida, construímos o componente de filtro e parametrizamos os filtros. Criamos o card de tarefa e implementamos o estado de troca de botões. Parametrizamos os cards de tarefa e exploramos o conceito de Enums. Por fim, configuramos o Redux para gerenciar o estado do nosso aplicativo.
+No módulo 35, iniciamos a construção de um site de ecommenrce, partindo das configurações iniciais. Progressivamente, desenvolveram o cabeçalho com elementos visuais, exploraram a prática de componentização nas aulas 04 a 06, e consolidaram o site com a construção das páginas e do rodapé. A aula 09 desafiou-os a aplicar o aprendizado. Ao longo do módulo, essa progressão guiada capacitou os participantes a compreenderem integralmente o desenvolvimento web, desde a concepção até a aplicação prática em um projeto completo.
 
 <br>
 
