@@ -1,117 +1,142 @@
 # 📌 Boas Práticas
-> Módulo 31: Projeto 5 - To do List
+> Módulo 30: Introdução ao Redux com React
 
 <br>
 
-## Faça a configuração inicial
-> O usode caracteresespeciaisHTML é fundamental para garantirque o textosejaexibidocorretamenteno navegador, especialmentequando se tratade caracteresque têm significadosespeciaisna linguagemHTML, como<, >, ", ', &, entre outros. Acompanhealgumas dicasúteissobreo usode caracteresespeciaisHTML:
-### ✔ Entidades HTML: 
-Utilize entidades HTML para representar caracteres especiais. As entidades HTML são sequências de texto que começam com & e terminam com ;. 
+## Conheça o problema de prop drilling
+> Acompanhe algumas dicas para resolver o prop drilling.
+### ✔ Componentes puros (Pure Components): 
+Componentes puros são componentes que não têm efeitos colaterais e sempre retornam o mesmo resultado para o mesmo conjunto de props. Eles podem ajudar a minimizar a propagação de props desnecessárias através da árvore de componentes. 
 
-Por exemplo: 
-- &lt; representa o caractere < 
-- &gt; representa o caractere > 
-- &quot; representa o caractere " 
-- &apos; representa o caractere ' 
-- &amp; representa o caractere & 
+### ✔ Componentes de ordem superior (Higher-Order Components): 
+Você pode usar o padrão de Higher-Order Components (HOC) para envolver componentes que precisam acessar o mesmo conjunto de props em um componente HOC. Isso pode simplificar a passagem de props repetidas vezes.
 
-### ✔ Evite o uso direto: 
-Evite usar caracteres especiais diretamente em seu código HTML, pois eles podem ser interpretados pelo navegador de maneira inesperada ou causar problemas de renderização. 
+### ✔ Renderização condicional: 
+Utilize renderização condicional para renderizar ou não um componente dependendo da existência de uma prop específica ou do estado. Libraries de gerenciamento de estado: Além do Redux e do Context API, existem outras bibliotecas de gerenciamento de estado, como MobX ou Zustand, que podem ajudar a resolver o problema de prop drilling. 
 
-### ✔ Codificação de caracteres: 
-Certifique-se de que o arquivo HTML está codificado corretamente. Usar a codificação UTF-8 é uma prática comum para garantir que os caracteres especiais sejam tratados corretamente. 
-
-### ✔ Formulários: 
-Em formulários HTML, certifique-se de que os caracteres especiais, como <, >, &,não causem problemas de segurança, especialmente em campos onde os dados serão enviados ao servidor. Considere usar recursos de segurança, como a validação dos dados do usuário e a sanitização do lado do servidor. 
-
-### ✔ Citação de código ou texto: 
-Ao citar código ou texto em seu documento HTML, é uma boa prática envolver o conteúdo em elementos de bloco adequados, como ``<code>`` para código e ``<blockquote>`` para citações. Isso ajuda a manter a formatação e destaque corretamente os caracteres especiais. 
-
-### ✔ Comentários: 
-Em comentários dentro do código HTML, evite usar sequências de caracteres especiais que possam fechar tags prematuramente ou causar erros de formatação.
+### ✔ Reestruture a árvore de componentes: 
+Às vezes, reestruturar a árvore de componentes pode ser uma solução simples. Considere mover os componentes que precisam das props mais próximos uns dos outros na hierarquia.
 
 <br>
 
-## Construa o componente de filtro
-> Configurarcorretamentea meta tag de viewport no HTML é fundamental para garantirque suaspáginasda web sejam responsivase se adaptembema diferentesdispositivose tamanhos de tela. Acompanhealgumasdicas importantessobrea configuração do viewport no HTML:
-### ✔ Definir a largura do viewport: 
-Use a propriedade width para definir a largura inicial do viewport. Definir width=device-width fará com que o viewport tenha a mesma largura do dispositivo, garantindo que o conteúdo seja exibido sem cortes laterais. 
-
-### ✔ Definir o dimensionamento inicial: 
-A propriedade initial-scale permite definir o fator de escala inicial para o viewport. Definir initial-scale=1.0 evita o dimensionamento automático da página no carregamento, mantendo o tamanho original do conteúdo. 
-
-### ✔ Evitar o dimensionamento da página:
-Evite usar userscalable=no para desativar o dimensionamento da página, a menos que seja estritamente necessário. Isso pode ser considerado uma má prática, pois impede que os usuários ajustem manualmente o zoom, o que pode ser frustrante para pessoas com deficiências visuais ou em dispositivos com tamanhos de tela atípicos.
-
-### ✔ Escolher a unidade de largura: 
-Quando definir valores de largura no viewport, como width=device-width, lembre-se de que a unidade device-width refere-se à largura do dispositivo em pixels físicos. Isso é útil para dispositivos móveis, mas em telas maiores, como monitores de desktop, pode resultar em layouts muito amplos. Considere usar outras unidades, como porcentagens ou vw (viewport width), para obter mais controle sobre o layout. 
-
-### ✔ Viewport mínimo e máximo: 
-Em alguns casos, pode ser útil definir um minimum-scale e/ou maximum-scale para limitar o dimensionamento da página, evitando que o conteúdo seja dimensionado em extremos indesejados. 
-
-### ✔ Viewport para dispositivos com alta densidade de pixels: 
-Em dispositivos com alta densidade de pixels (como Retina displays), considere definir initial-scale e minimum-scale para valores maiores que 1 para evitar que oconteúdo fique muito pequeno e difícil de ler. 
+## Aprenda sobre a arquitetura flux
+### ✔ Integre o Redux DevTools: 
+O Redux DevTools é uma ferramenta poderosa para depurar aplicações Flux. Ela permite acompanhar as Actions despachadas, o estado atual da aplicação e até mesmo viajar no tempo para analisar a sequência de mudanças no estado.
 
 <br>
 
-## Parametrize os filtros
-> O omit é umadas váriasutilidades de tipo(utility types) fornecidas peloTypeScript, que tornama manipulaçãoe definiçãode tipos maisexpressivae flexível. Acompanhealgumasdicassobre comousar as utilidadesde tipo.
-### ✔ Conheça as utilidades de tipo disponíveis: 
-O TypeScript oferece várias utilidades de tipo prontas para uso, como Partial, Pick, Omit, Record, Exclude, Extract, Required, ReturnType, entre outras. Familiarize-se com essas utilidades e suas funcionalidades para aproveitar ao máximo seus recursos. 
+## Conheça o redux
+### ✔ Imutabilidade: 
+O estado no Redux é imutável, o que significa que ele não pode ser modificado diretamente. Sempre que uma alteração é feita no estado, uma nova cópia do estado é criada e o estado anterior permanece inalterado. Isso ajuda a evitar efeitos colaterais e torna a depuração mais fácil. 
 
-### ✔ Utilize Partial para tipos opcionais: 
-Quando você tiver um tipo com várias propriedades opcionais, use Partial para tornar todas as propriedades do tipo como opcionais de uma só vez. Isso pode facilitar a criação de objetos parciais durante o desenvolvimento. 
+### ✔ Mantenha a store simples: 
+A store Redux deve conter apenas o estado global essencial para a aplicação. Evite colocar informações temporárias ou derivadas na store, pois isso pode dificultar a manutenção e gerar confusão.
 
-### ✔ Use Pick e Omit para extrair e remover propriedades: 
-Pick permite criar um novo tipo contendo apenas as propriedades específicas de outro tipo, enquanto Omit permite criar um novo tipo excluindo propriedades específicas do tipo original. Essas utilidades são úteis para restringir ou simplificar os tipos conforme necessário. 
+### ✔ Divida o estado em slices: 
+Divida o estado global em "slices" menores e independentes. Cada slice deve conter informações relacionadas a uma parte específica da aplicação. Isso facilita a manutenção e evita que a store se torne muito complexa. 
 
-### ✔ Crie mapeamentos de tipos com Record: 
-O Record permite criar tipos com base em um conjunto de chaves e valores. Ele é útil quando você deseja definir um dicionário, mapeamento ou objeto com um conjunto predefinido de chaves. 
+### ✔ Evite mutações diretas: 
+O Redux enfatiza a imutabilidade do estado. Evite modificar diretamente o estado dentro dos reducers. Em vez disso, retorne um novo objeto de estado ou utilize bibliotecas como o Immer para facilitar a imutabilidade.
 
-### ✔ Use Exclude e Extract para manipulação condicional de tipos: 
-Essas utilidades são úteis quando você precisa filtrar ou extrair tipos com base em condições ou predicados. 
+### ✔ Aproveite a comunidade: 
+O Redux tem uma comunidade ativa e rica em recursos. Aproveite a vasta quantidade de bibliotecas, exemplos e tutoriais disponíveis para melhorar suas habilidades e resolver desafios específicos. 
 
-### ✔ Combinando utility types: 
-Você pode combinar várias utilidades de tipo para obter resultados mais complexos e personalizados. Experimente combinações de utilidades para atender às necessidades específicas do seu código.
-
-<br>
-
-## Construa o card de tarefas
-> Acompanhealgumasdicasúteis sobreo usodo overflow:
-### ✔ Entenda os valores do overflow: 
-A propriedade overflow pode receber diferentes valores: 
-- visible: O comportamento padrão, o conteúdo pode se estender além dos limites do elemento. 
-- hidden: O conteúdo que exceder o tamanho do elemento será cortado e não será visível. 
-- scroll: Será adicionada uma barra de rolagem, mesmo que oconteúdo não exceda o tamanho do elemento, tornando a rolagem sempre disponível. 
-- auto: Adiciona uma barra de rolagem somente se o conteúdo exceder o tamanho do elemento. 
-
-### ✔ Cuidado com overflow: 
-hidden: Embora overflow: hidden seja útil para recortar o conteúdo que excede o tamanho do elemento, tenha cuidado para não cortar informações importantes ou elementos visíveis, especialmente em layouts responsivos.
+### ✔ Seja consistente: 
+Mantenha um padrão consistente de nomenclatura para suas actions, reducers, seletores e outros elementos do Redux. Isso torna o código mais legível e facilita a colaboração entre os membros da equipe.
 
 <br>
 
-## Conheça Enums
-> Osenumssãoúteisquandovocê precisarepresentarum conjunto de valoresrelacionadose atribuir significadosemânticoaosvalores, tornandoo códigomaislegívele autoexplicativo. Acompanhe algumasdicaspara usar osenums.
-### ✔ Atribua valores personalizados, se necessário: 
-Por padrão, os enums começam aatribuir valores numéricos a partir de 0 e aumentam em ordem crescente. No entanto, você pode atribuir valores personalizados aos membros do enum para garantir que eles se alinhem com requisitos específicos do seu sistema. 
+## Explore o Redux Toolkit
+> Acompanhe algumas dicas e boas práticas relacionadas ao uso de letras maiúsculas no Redux Toolkit.
+### ✔ Action Types em letras maiúsculas: 
+A convenção mais comum é usar os tipos de ação (action types) em letras maiúsculas e separados por underline (snake_case). Isso torna os types mais legíveis e distintos de outros nomes no código. 
 
-### ✔ Evite valores duplicados: 
-Certifique-se de que cada membro do enum tenha um valor único. Valores duplicados podem levar a comportamentos inesperados e difíceis de depurar. 
+### ✔ Nome de Slice em CamelCase: 
+Ao criar um "slice" usando createSlice, é comum usar o formato CamelCase para o nome do slice. Por exemplo, um slice que gerencia o contador pode ser nomeado como counterSlice. 
 
-### ✔ Use enums em vez de valores literais: 
-Em vez de usar valores literais (como strings ou números) diretamente em seu código, considere usar os membros do enum correspondentes. Isso tornará o código mais legível e menos propenso aerros de digitação. 
+### ✔ Action Creators: 
+Ao criar action creators usando createSlice, eles são gerados automaticamente com nomes em CamelCase. Esses action creators podem ser usados diretamente em dispatch, em vez de chamar manualmente o dispatch com objetos de ação. 
 
-### ✔ Cuidado com inversões de mapeamento: 
-Os enums do TypeScript permitem obter o valor numérico de um membro e vice-versa. No entanto, tenha cuidado com inversões de mapeamento, pois nem sempre é garantido que um valor numérico seja válido para um enum. 
+### ✔ Constantes em letras maiúsculas: 
+Se você estiver usando constantes para definir os tipos de ação, é uma boa prática nomeá-las em letras maiúsculas.
 
-### ✔ Utilize const enums quando a performance é importante: 
-Em alguns casos, quando a performance é uma preocupação, você pode usar const enums em vez de enums regulares. Os const enums são totalmente eliminados durante a compilação, e seus valores são substituídos diretamente no código, resultando em um código mais eficiente. 
+<br>
 
-### ✔ Considere enums string:
-O TypeScript também suporta enums com valores string. Esses enums podem ser úteis quando você precisa representar um conjunto de valores que não sejam numéricos, como nomes de cores, tipos de status etc.
+> Acompanhe agora algumas dicas para usar o Redux Toolkit de forma eficaz.
 
-### ✔ Cuidado com inversões de mapeamento: 
-Os enums do TypeScript permitem obter o valor numérico de um membro e vice-versa. No entanto, tenha cuidado com inversões de mapeamento, pois nem sempre é garantido que um valor numérico seja válido para um enum. 
+### ✔ Evite ações assíncronas diretamente no reducer: 
+Os reducers do Redux devem ser funções puras, portanto, evite fazer operações assíncronas diretamente dentro deles. Use middlewares como o redux-thunk ou redux-saga para lidar com operações assíncronas e despachar actions apropriadas. 
 
-### ✔ Use maiúsculas: 
-por convenção, os membros de um enum são escritos em letras maiúsculas e separados por underscore (_) quando composto por mais de uma palavra. Isso torna o código mais legível e facilita aidentificação rápida de que se trata de um enum.
+### ✔ Use configureStore para criar a store: 
+O configureStore é um método do Redux Toolkit que simplifica a criação da store, incluindo a configuração de middlewares e a ativação das ferramentas de desenvolvedor, como o Redux DevTools. 
+
+### ✔ Evite a estruturação excessiva do estado: 
+Embora seja importante dividir o estado em fatias independentes, evite criar uma estrutura muito granular ou complexa. Mantenha o estado tão simples quanto possível para facilitar a manutenção e o entendimento.
+
+<br>
+
+## Use seletores
+### ✔ Seletores simples e reutilizáveis: 
+É uma boa prática criar seletores simples e reutilizáveis para extrair partes específicas do estado. Dessa forma, você pode usar o mesmo seletor em diferentes componentes, evitando duplicação de código. 
+
+
+### ✔ Evite selecionar o estado inteiro: 
+É tentador selecionar todo o estado global para um componente, mas isso pode levar a uma renderização excessiva e ineficiente. Selecione apenas as partes do estado que o componente realmente precisa para evitar renderizações desnecessárias. 
+
+### ✔ Separe seletores por contexto: 
+Se sua aplicação tiver várias partes do estado com lógica específica para cada contexto, é uma boa prática criar seletores para cada contexto em vez de criar um seletor único que abrange toda a aplicação. Isso torna o código mais organizado e mais fácil de manter.
+
+### ✔ Compartilhe seletores personalizados: 
+Se você tiver seletores que podem ser úteis para outras partes da aplicação ou que possam ser reutilizados em projetos futuros, considere colocá-los em um arquivo separado e compartilhá-los como um módulo personalizado.
+
+<br>
+
+## Conheça o Redux Toolkit Query
+> Conheça os principais recursos do Redux Toolkit Query.
+### ✔ Configuração declarativa: 
+O RTK Query permite que você defina endpoints de consulta de forma declarativa, especificando informações como a URL da API, os métodos HTTP a serem usados, parâmetros, cabeçalhos e muito mais. 
+
+### ✔ Caching e refetching automáticos: 
+O RTK Query oferece um sistema de cache embutido que evita solicitações duplicadas à mesma API, reduzindo o tráfego de rede e melhorando o desempenho da aplicação. Ele também suporta recarregar automaticamente os dados expirados no cache quando os componentes são montados ou quando ocorrem ações específicas. 
+
+### ✔ Atualizações otimistas: 
+Com o RTK Query, você pode configurar atualizações otimistas para fornecer feedback imediato ao usuário, mesmo antes de os dados serem enviados ao servidor. Isso melhora a experiência do usuário e reduz a percepção de latência.
+
+### ✔ Gerenciamento automático do estado: 
+O RTK Query gerencia automaticamente o estado de cada endpoint de consulta na store do Redux. Isso inclui informações sobre o estado das solicitações (carregando, erro, sucesso), bem como os dados retornados pela API. 
+
+### ✔ Customização e interceptação: 
+O RTK Query oferece muitas opções de personalização para atender às necessidades específicas da sua aplicação. Você pode interromper o fluxo de solicitações, adicionar cabeçalhos personalizados, transformar dados antes de armazená-los no estado e muito mais. 
+
+### ✔ Integração com outros recursos do Redux Toolkit: 
+O RTK Query é totalmente compatível com outras funcionalidades do Redux Toolkit, como createSlice e configureStore.
+
+<br>
+
+> Acompanhe as dicas sobre o uso de Middleware no Redux Toolkit Query.
+### ✔ Adicione lógica de autenticação: 
+Você pode usar um middleware para adicionar automaticamente cabeçalhos de autorização (por exemplo, um token JWT) em todas as solicitações HTTP, facilitando a autenticação na API. 
+
+### ✔ Trate erros de forma centralizada: 
+Utilize um middleware para capturar e tratar erros de solicitação HTTP em um local centralizado. Isso ajuda a lidar com erros de maneira consistente em toda a aplicação. 
+
+### ✔ Transforme dados: 
+Se necessário, faça transformações nos dados de solicitação ou resposta, como converter formatos de data ou modificar o conteúdo da solicitação antes de enviá-la à API. 
+
+### ✔ Cache de solicitações: 
+Se você deseja implementar caching de solicitações para evitar chamadas duplicadas à mesma API, um middleware pode ajudar a gerenciar o cache e evitar solicitações redundantes. 
+
+### ✔ Manipule paginamento: 
+Se a sua API usa paginamento, você pode usar um middleware para automatizar a lógica de carregar mais dados ao chegar ao final de uma página. 
+
+### ✔ Monitoramento e logging: 
+Adicione funcionalidades de logging para monitorar o tráfego de solicitações e respostas da API, o que pode ser útil para fins de depuração e análise de desempenho. 
+
+### ✔ Intercepte respostas para processamento global: 
+Você pode usar um middleware para processar respostas da API globalmente, como realizar ações específicas com base no status de resposta (por exemplo, atualizar o token JWT expirado). 
+
+### ✔ Crie headers personalizados: 
+Se a sua API requer headers específicos em todas as solicitações, um middleware pode adicionar esses headers automaticamente para você. 
+
+### ✔ Evite replicação de lógica: 
+Utilize middlewares para centralizar e reutilizar lógica comum em toda a aplicação. Isso evita a replicação desnecessária de código em vários endpoints de consulta.
