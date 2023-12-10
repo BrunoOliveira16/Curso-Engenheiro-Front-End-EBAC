@@ -1,4 +1,4 @@
 # 📌 Recapitule o trajeto
-> Módulo 35: Projeto 6 - Part 1
+> Módulo 36: Projeto 6 - Part 2
 
 Em desenvolvimento...
