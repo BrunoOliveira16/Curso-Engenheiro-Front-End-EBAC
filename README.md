@@ -65,5 +65,6 @@ Descrição dos conteúdos de cada módulo do curso:
 - **Módulo 35:** Projeto 6 - Part 1
 - **Módulo 36:** Projeto 6 - Part 2
 - **Módulo 37:** Projeto 6 - Part 3
+- **Módulo 38:** Projeto 6 - Part 4
 
 Em desenvolvimento...
